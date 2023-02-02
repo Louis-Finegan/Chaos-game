@@ -41,7 +41,7 @@ def main():
     pressed_s = False
 
     # Initializes the pygame
-    num_verts = 5 # Number of vertices on the polygon
+    num_verts = 6 # Number of vertices on the polygon
     verts = generate_verts(num_verts, size=size, radius=150)
     current_point = init_point(size, verts)
     
@@ -62,7 +62,7 @@ def main():
         for event in pygame.event.get():
             # Quit Game
             if event.type == pygame.QUIT:
-                    running = False
+                running = False
 
             if event.type == pygame.KEYDOWN:
                 # Press to start
