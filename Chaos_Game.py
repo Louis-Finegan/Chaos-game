@@ -41,7 +41,7 @@ def main():
     pressed_s = False
 
     # Initializes the pygame
-    num_verts = 6 # Number of vertices on the polygon
+    num_verts = 3 # Number of vertices on the polygon
     verts = generate_verts(num_verts, size=size, radius=150)
     current_point = init_point(size, verts)
     
